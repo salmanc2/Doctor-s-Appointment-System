@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* navbar start*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color: royalblue !important;
+}
+
+.nav-link {
+
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: #00E8E8 !important;   
+    transition: 0.3s;
+}
+
+.active .nav-link{
+    color: #00E8E8 !important;   
+}
+
+.menu-right-btn{
+  margin-right: 10px; 
+}
+
+.menu-right-btn:hover{
+    margin-right: 10px; 
+    background: #00E8E8 !important;
+    transition: 0.3s;
+}
+
+.menu-left-btn:hover{
+      background: #00E8E8 !important;
+        transition: 0.3s;
+}
+
+/* navbar ends*/
+
+.site-content{
+    background-image: url(../image/computer-desk-laptop-stethoscope-48604.png);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.site-title, .site-desc {
+    color: white;
+}
+
+.site-title {
+    margin-top: 30%;
+    margin-bottom: -15px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.site-desc {
+    font-size: 14px;
+    margin: auto;
+}
+
+.site-btn1 {
+    margin-left: 35%;
+    background-color: #00E8E8 !important;
+    margin-top: 3%;
+    font-weight: 800;
+    align-content: center;
+}
+
+/* section-1*/ 
+
+.section-1 {
+    min-height: 200px;
+}
+.section-1 .heading-1 {
+    align-content: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.section-1 .para-1 {
+    line-height: 180%;
+   margin-bottom: 8%;
+  
+}
+
+.section-2 {
+    min-height: 100px;
+    background-color:ghostwhite; 
+    margin-top: 40px;
+}
+
+.doctors{
+    margin-top: 3%;
+}
+
+
+
+
+input[type=text],input[type=password],input[type=date],input[type=time] select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=password]
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #00E8E8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: green;
+    transition: 0.4s;
+}
+
+
+
+footer{
+    margin-top: 
+}
